@@ -1,0 +1,2 @@
+#define STACK_CHK_GUARD_VALUE 0xdeadbeefa55a842
+uintptr_t __stack_chk_guard = STACK_CHK_GUARD_VALUE;
